@@ -2,6 +2,23 @@ body {
     background-color: #000;
   }
 
+.btn{
+    background-size: cover;
+    border: none;
+    background-color: none;
+    border: outset 3px #E0FFFF;
+    color:#E0FFFF;
+    font-family: 'MuseoModerno', cursive;
+
+
+}
+.btn:hover{
+  transform: scale(1.2);
+  transition: all .1s ease-in-out;
+  color:#E0FFFF;
+  border: inset;
+
+}
 #landing-header {
     z-index: 1; /*property specifies the stack order of an element. only works on positioned elements*/
     position: relative; /* is positioned relative to its normal position.*/
@@ -10,7 +27,10 @@ body {
   }
 
   #landing-header h1 {
-    color: #fff;
+    color: #E0FFFF;
+    font-size: 70px !important;
+    font-family: 'MuseoModerno', cursive;
+
   }
 
   .slideshow { 
