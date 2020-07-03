@@ -1,8 +1,10 @@
 .thumbnail img {
     width: 100%;
+    height:150px;
 }
 
 .thumbnail {
+   
     padding: 0;
     border:none;
     background-color: #F0FFFF !important;
