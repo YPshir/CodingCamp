@@ -71,3 +71,7 @@ nav li a{
     color:#696969 !important;
 }
 
+.navbar-toggle .icon-bar{
+    background-color:lightgrey !important;
+}
+
