@@ -4,13 +4,14 @@
     <div class="row"> 
         <div class="col-md-12">
             <div class="thumbnail"> 
-                <img class="img-responsive" src="<%=campground.image%>"> <!--Responsive images automatically adjust to fit the size of the screen.-->
+                <img class="img-responsive" src="<%=campground.image%>" style="height: 500px; width: 500px; padding-top: 40px;"> <!--Responsive images automatically adjust to fit the size of the screen.-->
                 <div class="caption-full"> <!--.caption class adds proper padding and a dark grey color to text inside thumbnails.-->
-                    <h4 class="pull-right">$<%= campground.price %>/night</h4>
-                    <h4><a href=""><%=campground.name%></a></h4>
+                    <h4 class="pull-right">$<%= campground.price %></h4>
+                    <h4><a href="<%=campground.link%>"><%=campground.name%></a></h4>
                     <p><%=campground.description%></p>
+                    <!--<h4><a href="<%=campground.link%>"></a>LINK</h4>-->
                     <p>
-                        <em>Submitted By <%= campground.author.username %></em> 
+                        <em>Submitted By @ <%= campground.author.username %></em> 
                     </p>
                     <% if(currentUser && campground.author.id.equals(currentUser._id)) { %>
                         <a class="btn btn-xs btn-warning" href="/campgrounds/<%=campground._id%>/edit">Edit</a>
@@ -20,7 +21,7 @@
                     <% } %>
                 </div>
             </div>
-            <div class="well"><!--well class adds a rounded border around an element with a gray background color and some padding-->
+            <div  style="background:  #F0FFFF" class="well"><!--well class adds a rounded border around an element with a gray background color and some padding-->
                 <div class="text-right">
                     <a class="btn btn-success"  href="/campgrounds/<%=campground._id%>/comments/new">Add New Comment</a>
                 </div>
