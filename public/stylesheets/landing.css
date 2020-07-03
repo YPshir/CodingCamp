@@ -9,8 +9,6 @@ body {
     border: outset 3px #E0FFFF;
     color:#E0FFFF;
     font-family: 'MuseoModerno', cursive;
-
-
 }
 .btn:hover{
   transform: scale(1.2);
@@ -30,6 +28,7 @@ body {
     color: #E0FFFF;
     font-size: 70px !important;
     font-family: 'MuseoModerno', cursive;
+    margin-bottom: 20px;
 
   }
 
