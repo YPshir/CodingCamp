@@ -12,10 +12,10 @@
                     <input class="form-control" type="number" name="campground[price]" value="<%= campground.price %>" min="0.01" step="0.01">
                 </div> -->
                 <div class="form-group">
-                    <select class="form-control" name="campground[price]" value="<%=campground.name%>">
+                    <select class="form-control" name="campground[price]" value="<%=campground.price%>">
                         <option value="free">Free</option>
-                        <option value="partial payment">Partial Payment</option>
-                        <option value="Payment">Payment</option>
+                        <option value="In-App Purchases">In-App Purchases</option>
+                        <option value="Monthly/Yearly Subscription">Monthly/Yearly Subscription</option>
                     </select>
                 </div>
                 <div class="form-group">
