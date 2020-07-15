@@ -9,7 +9,7 @@ Site visitors can view the list of sites that have been entered into the system,
 registered users can add additional sites to the list and they can also comment on posts.  
 
 ## Live Demo
- To see the app in action, go to [YelpCodingInterview Shir Demo](https://yelp-coding-interview.herokuapp.com/)
+ To see the app in action, go to [YelpCodingInterview Shir Demo](https://ready-set-code.herokuapp.com/)
 
 ## Features
 
